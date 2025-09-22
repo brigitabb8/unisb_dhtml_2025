@@ -18,5 +18,5 @@ document.getElementById("kontaktForma").addEventListener("submit", function(e) {
   localStorage.setItem("kontaktPoruka", poruka);
 
   status.textContent = "Poruka uspješno poslana!";
-  this.reset();
+  this.reset()
 })
