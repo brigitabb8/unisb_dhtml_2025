@@ -1,0 +1,193 @@
+
+     header {
+      background: #9a1b36;
+      padding: 15px 0;
+      margin: 20px auto;
+      
+      
+    }
+    .dark header {
+      background: #1b2e9a;
+      
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 5px 5px;
+    }
+    
+    nav ul li a {
+      background: transparent;
+      border: solid rgb(253, 252, 252) 2px;
+      border-radius: 25px;
+      padding: 10px 10px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    nav ul li a:hover {
+      cursor: pointer;
+      background: #5d5858;
+      opacity: 0.6;
+    }
+    body{
+       background: #dd3b5e;
+       border: solid 2px #5d5858 ;
+       border-radius: 1px;
+       padding: 20px;
+       margin: 0 auto;
+       
+
+    }
+    .dark 
+    {
+        background: #47a0e9 
+    }
+    h1,h2,h3,p,ul,table{
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+        color: white;
+        list-style: none;
+       justify-content: center;
+    }
+  
+    img{
+        max-width: 100%;
+    }
+    .naslovna , .women_olympics{
+         display: block;
+          margin:auto;
+  
+    }
+    .naslovna , .women_olympics{
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+        
+    }
+    .naslovna:hover, .women_olympics:hover{
+        opacity: 70%;
+        transform: scale(1.2);
+    }
+    .grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:15px;
+    }
+    .grid img{
+        width:100%;
+        aspect-ratio: 3/2;
+        transition: all 150ms ease ease-in;
+    }
+    .grid img:hover{
+        transform: scale(1);
+    }
+    .grid a:link, a:visited {
+      color: white;
+      font-family: "Lucida Console", "Courier New", monospace;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 4%;
+    }
+  .grid a:hover, a:active {
+    opacity: 0.6;
+    transform: scale(1.2)
+  }
+    p{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    button{
+        display: block;
+        margin: 10px auto;
+        background: #5d5858 ;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 20px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms;
+        color: rgb(253, 252, 252);
+    }
+    button:hover{
+        background: #9e9a94 ;
+        color:white;
+        cursor:pointer;
+    }
+    .pridruzi_se{
+        text-decoration: none;
+    }
+    .container{
+        max-width: 70%;
+        margin: 5% auto;
+        font-size: 20;
+        border-radius: 0.5%;
+        padding:15px;
+        transition: all 150ms ease-in-out
+    }
+  
+    
+    .theme-button{
+        font-size: 10px;
+        padding:5 8px;
+    }
+
+    .treninzi {
+       border:groove 5px whitesmoke; 
+       border-radius: 5px;
+       margin: 30px auto;
+       padding: 10px;
+       
+    }
+    table,th,td{
+        margin: 0 auto;
+        border: 1px solid;
+        font-size: 20px;
+        border-radius: 6px;
+        padding: 10px 15px;
+    }
+    form {
+         display: flex;
+         flex-direction: column;
+         max-width: 400px;
+         font-family: "Lucida Console", "Courier New", monospace;
+         color: rgb(255, 255, 255);
+         background: #9a1b36;
+         margin: 10px auto;
+         border: 1px solid #5d5858 ;
+         padding: 15px;
+         border-radius: 4px;
+         
+   }
+   .dark form{
+       background: #1b2e9a;
+   }
+
+    label {
+          display: block;
+          font-weight: 700;
+    }
+    em {
+       color:#9a1b36;
+       text-decoration: underline;
+    }
+    .dark em{
+        color: #1b2e9a;
+
+    }
+
+   footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 20;
+        color: white;
+        background: #9a1b36;
+    }
+    .dark footer {
+      background: #1b2e9a;
+      
+    }
